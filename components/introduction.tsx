@@ -4,9 +4,9 @@ import { TypeAnimation } from 'react-type-animation';
 const Introduction = () => {
     return (
         <div className="z-20 w-full bg-darkBg/60">
-            <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
-                <Image src="/home-4.png" priority width="250" height="250" alt="Avatar" className="mx-auto"/>
-                <div className="flex flex-col justify-center max-w-md">
+            <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2 my-4">
+            <Image src="/home-4.png" priority layout="intrinsic"  width={230} height={230} alt="Avatar" className="mx-auto md:w-[330px] md:h-[330px]"/>
+                <div className="flex flex-col justify-center max-w-md ">
                     <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">Soy Alejandro Toral, <br />
                         <TypeAnimation
                             sequence={[
@@ -30,7 +30,7 @@ const Introduction = () => {
                     Apasionado de la tecnología siempre en búsqueda de nuevas oportunidades para aprender y crecer en un mundo que cambia rápidamente.
                     </p>
 
-                    <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
+                    <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10 pb-20">
                         <a href="/portfolio" className="px-3 py-2 my-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">
                             Proyectos
                         </a>
