@@ -9,7 +9,7 @@ import 'swiper/css/scrollbar';
 import Navbar from "@/components/navbar";
 import Header from "@/components/header";
 
-const poppins = Poppins({ subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"] });
+const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata: Metadata = {
   title: "Alejandro Toral",
