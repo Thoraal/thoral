@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Urbanist } from "next/font/google";
 
 import "./globals.css";
 import 'swiper/css';
@@ -9,7 +9,7 @@ import 'swiper/css/scrollbar';
 import Navbar from "@/components/navbar";
 import Header from "@/components/header";
 
-const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] });
+const urbanist = Urbanist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Alejandro Toral",
@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
+      <body className={urbanist.className}>
         <Navbar />
         <Header />
         {children}
