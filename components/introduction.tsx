@@ -20,7 +20,7 @@ const Introduction = () => {
                                 1500
                             ]}
                             wrapper="span"
-                            speed={60}
+                            speed={50}
                             repeat={Infinity}
                             className="font-bold text-secondary"
                         />
