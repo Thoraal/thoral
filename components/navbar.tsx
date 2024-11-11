@@ -17,7 +17,7 @@ const Navbar = () => {
                     {itemsNavbar.map((item) => (
                         <div
                             key={item.id}
-                            className={`px-6 py-2 transition duration-150 rounded-full cursor-pointer hover:bg-secondary ${router === item.link && 'bg-secondary'}`}
+                            className={`px-7 py-2 transition duration-150 rounded-full cursor-pointer hover:bg-secondary ${router === item.link && 'bg-secondary'}`}
                             data-tooltip-target="tooltip-default">
                             <Link href={item.link}>{item.icon} </Link>
                         </div>
