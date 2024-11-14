@@ -18,7 +18,7 @@ const Header = () => {
               src="/logo.png"
               alt="Logo"
               width={200}
-              height={50}
+              height={40}
               className="my-3 mx-auto md:mx-0"
             />
           </Link>
