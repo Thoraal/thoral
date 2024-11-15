@@ -1,6 +1,10 @@
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub, FaDownload } from "react-icons/fa";
+
+// Import dynamic icons to prevent SSR issues
+const FaGithub = dynamic(() => import("react-icons/fa").then(mod => mod.FaGithub), { ssr: false });
+const FaDownload = dynamic(() => import("react-icons/fa").then(mod => mod.FaDownload), { ssr: false });
 
 interface PortfolioBoxProps {
     data: {
