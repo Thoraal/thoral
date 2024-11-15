@@ -194,7 +194,7 @@ export const dataPortfolio = [
     },
     {
         id: 8,
-        title: "En desarrollo...b",
+        title: "En desarrollo...",
         image: "/sinproyecto.png",
         urlGithub: "#!",
         urlDemo: "#!",
