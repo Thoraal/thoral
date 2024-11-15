@@ -11,9 +11,9 @@ interface PortfolioBoxProps {
     };
 }
 
-const PortfolioBox: React.FC<PortfolioBoxProps> = ({ data: { id, title, image, urlGithub, urlDemo } }) => {
+const PortfolioBox: React.FC<PortfolioBoxProps> = ({ data: { title, image, urlGithub, urlDemo } }) => {
     return (
-        <div key={id} className="p-4 border border-teal-50 rounded-xl">
+        <div className="p-4 rounded-xl bg-white/20 backdrop-blur-sm">
             <h3 className="mb-4 text-xl font-semibold">{title}</h3>
             <Image
                 src={image}
