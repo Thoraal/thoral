@@ -16,7 +16,7 @@ const Navbar = () => {
                     {itemsNavbar.map((item) => (
                         <motion.div
                             key={item.id}
-                            className={`px-6 py-2 transition duration-150 rounded-lg cursor-pointer ${router === item.link && 'bg-secondary/80'}`}
+                            className={`px-6 py-2 transition duration-150 rounded-lg cursor-pointer ${router === item.link && 'bg-indigo-900/50'}`}
                             data-tooltip-target="tooltip-default"
                             whileHover={{ y: -4 }}
                             whileTap={{ scale: 0.95 }}
