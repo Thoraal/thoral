@@ -145,7 +145,7 @@ export const serviceData = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Temporizador",
+        title: "Temporizador ⏲️",
         image: "/Timer.gif",
         urlGithub: "#!",
         urlDemo: "https://github.com/Thoraal/Temporizador/raw/refs/heads/main/Temporizador.exe",
