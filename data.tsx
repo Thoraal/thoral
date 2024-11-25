@@ -198,6 +198,13 @@ export const dataPortfolio = [
         image: "/sinproyecto.png",
         urlGithub: "#!",
         urlDemo: "#!",
+    },
+    {
+        id: 9,
+        title: "En desarrollo...",
+        image: "/sinproyecto.png",
+        urlGithub: "#!",
+        urlDemo: "#!",
     }
 ];
 

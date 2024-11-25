@@ -23,8 +23,8 @@ const PortfolioBox: React.FC<PortfolioBoxProps> = ({ data: { title, image, urlGi
             <Image
                 src={image}
                 alt={`${title} Image`}
-                width={300}
-                height={300}
+                width={250}
+                height={250}
                 className="w-full rounded-2xl h-auto object-cover transition-transform duration-300 transform hover:scale-105"
             />
 
