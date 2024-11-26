@@ -152,10 +152,10 @@ export const dataPortfolio = [
     },
     {
         id: 2,
-        title: "En desarrollo...",
-        image: "/sinproyecto.png",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Calculadora ISR",
+        image: "/isr.png",
+        urlGithub: "https://thoraal.github.io/CalcisrPf.html",
+        urlDemo: "https://thoraal.github.io/CalcisrPf.html",
     },
     {
         id: 3,
