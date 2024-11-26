@@ -18,17 +18,23 @@ interface PortfolioBoxProps {
 
 const PortfolioBox: React.FC<PortfolioBoxProps> = ({ data: { title, image, urlGithub, urlDemo } }) => {
     return (
-        <div className="p-4 rounded-xl bg-white/10 backdrop-blur-md transition duration-200 hover:bg-indigo-400/15">
+        <div className="p-4 rounded-xl bg-white/10 backdrop-blur-md transition duration-200 hover:bg-indigo-400/15 flex flex-col h-full">
+            {/* Título */}
             <h3 className="mb-4 text-xl font-medium">{title}</h3>
-            <Image
-                src={image}
-                alt={`${title} Image`}
-                width={250}
-                height={250}
-                className="w-full rounded-2xl h-auto object-cover transition-transform duration-300 transform hover:scale-105"
-            />
+            
+            {/* Imagen */}
+            <div className="flex-grow mb-4">
+                <Image
+                    src={image}
+                    alt={`${title} Image`}
+                    width={250}
+                    height={250}
+                    className="w-full rounded-2xl h-auto object-cover transition-transform duration-300 transform hover:scale-105"
+                />
+            </div>
 
-            <div className="flex gap-5 mt-5">
+            {/* Botones */}
+            <div className="flex gap-5 mt-auto">
                 <Link
                     href={urlGithub}
                     target="_blank"
